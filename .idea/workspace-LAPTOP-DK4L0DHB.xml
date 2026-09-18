@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="902ebe4a-2f9b-48b7-8cb4-984137fa0f92" name="Changes" comment="Finished work">
+      <change beforePath="$PROJECT_DIR$/src/GUI/MeinFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/MeinFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tgugic/controller/Mastermind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tgugic/controller/Mastermind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tgugic/view/FormPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tgugic/view/FormPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tgugic/view/MastermindFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tgugic/view/MastermindFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tgugic/view/MastermindLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tgugic/view/MastermindLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bsp/ZiffernControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bsp/controller/ZiffernControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bsp/ZiffernFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bsp/view/ZiffernFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bsp/ZiffernPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bsp/view/ZiffernPanel.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
+    </option>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="52" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Exception" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="INCOMING_COMMITS_CHECK_STRATEGY" value="FETCH" />
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Rechnung" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;CLeckIn&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/CLeckIn/InteliJProject&quot;,
+    &quot;accountId&quot;: &quot;4dc4130a-0aa6-4c7d-b5b2-006a7e73925c&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Tgugic/view/MastermindGUI.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-25.0.2/lib/src.zip!/java.base/java/lang/Object.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="2.327013927248914" />
+      <entry key="MS500" value="5.445030516091161" />
+      <entry key="S2" value="14.470497158551652" />
+      <entry key="S5" value="22.246215556434233" />
+      <entry key="S10" value="27.16287874728503" />
+      <entry key="S30" value="34.14164309464228" />
+      <entry key="S60" value="37.68062929261788" />
+      <entry key="M2" value="40.05530501205894" />
+      <entry key="M5" value="41.945410912488065" />
+      <entry key="M10" value="46.875206985755895" />
+      <entry key="M15" value="57.93144638783672" />
+      <entry key="M30" value="115.27165716938661" />
+      <entry key="H1" value="248.16492892763824" />
+      <entry key="H2" value="476.16462536932" />
+      <entry key="H4" value="771.2156278945625" />
+      <entry key="D1" value="1345.1013673104637" />
+      <entry key="W1" value="1513.6127412376131" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="1.4557059644553217E-200" />
+      <entry key="S30" value="2.4416939127095082E-67" />
+      <entry key="S60" value="4.941349929634121E-34" />
+      <entry key="M2" value="2.2229147373741683E-17" />
+      <entry key="M5" value="2.1815997468742174E-7" />
+      <entry key="M10" value="4.70549376497135E-4" />
+      <entry key="M15" value="0.006412313114014604" />
+      <entry key="M30" value="0.130495068845575" />
+      <entry key="H1" value="1.07243424210996" />
+      <entry key="H2" value="4.315882400226047" />
+      <entry key="H4" value="10.52172900431069" />
+      <entry key="D1" value="30.421087292066645" />
+      <entry key="W1" value="38.40958662767268" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="2.228781167527201" />
+      <entry key="MS500" value="5.400510336436176" />
+      <entry key="S2" value="14.440166840891857" />
+      <entry key="S5" value="22.227411122216303" />
+      <entry key="S10" value="27.151348563913366" />
+      <entry key="S30" value="34.13673609764736" />
+      <entry key="S60" value="37.67789437637389" />
+      <entry key="M2" value="40.053841894829496" />
+      <entry key="M5" value="41.94479498890966" />
+      <entry key="M10" value="46.87530597724582" />
+      <entry key="M15" value="57.93736836125083" />
+      <entry key="M30" value="115.40001751644732" />
+      <entry key="H1" value="249.23088161098246" />
+      <entry key="H2" value="480.47065581928143" />
+      <entry key="H4" value="781.7280911011776" />
+      <entry key="D1" value="1375.5194823317624" />
+      <entry key="W1" value="1552.0218392433294" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="3AwtAVdwc6Yy2JPZ1s4lLFLivsb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AccountTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Game.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Mastermind.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MeinFrame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MeinFrame_main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NameFrame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Schere.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestLauf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testrechnung.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ziffer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ZiffernControl.executor&quot;: &quot;Run&quot;,
+    &quot;Application.account_item.AccountTest.executor&quot;: &quot;Run&quot;,
+    &quot;Git.Working.Tree.Tab.closed.by.user&quot;: &quot;closed&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Rechnung&quot;,
+    &quot;git.auto.fetch.suggestion.counter&quot;: &quot;1&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Toni/OneDrive - tgm - Die Schule der Technik/tgugic&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kek\OneDrive - tgm - Die Schule der Technik\tgugic\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.account_item.AccountTest">
+    <configuration name="Bsp" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-25" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="bsp.controller.ZiffernControl" />
+      <module name="Tgugic" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Game" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-25" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Test.controller.GameController" />
+      <module name="Tgugic" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mastermind" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-25" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Tgugic.controller.Mastermind" />
+      <module name="Tgugic" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeinFrame_main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="GUI.MeinFrame" />
+      <module name="Tgugic" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NameFrame" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="GUI.NameFrame" />
+      <module name="Tgugic" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Schere" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-25" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Test.controller.GameController" />
+      <module name="Tgugic" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ziffer" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-25" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="bsp.controller.ZiffernControl" />
+      <module name="Tgugic" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-25" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="Tgugic" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="account_item.AccountTest" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-25" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="account_item.AccountTest" />
+      <module name="Tgugic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tgugic.premiumAccount.account_item.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Bsp" />
+      <item itemvalue="Application.Game" />
+      <item itemvalue="Application.Ziffer" />
+      <item itemvalue="Application.Mastermind" />
+      <item itemvalue="Application.MeinFrame_main" />
+      <item itemvalue="Application.NameFrame" />
+      <item itemvalue="Application.Schere" />
+      <item itemvalue="Application.account_item.AccountTest" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10315.125" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10315.125" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="902ebe4a-2f9b-48b7-8cb4-984137fa0f92" name="Changes" comment="" />
+      <created>1773515319734</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1773515319734</updated>
+      <workItem from="1773515321141" duration="273000" />
+      <workItem from="1774252793459" duration="73000" />
+      <workItem from="1774252881418" duration="755000" />
+      <workItem from="1774255102225" duration="1205000" />
+      <workItem from="1774276874019" duration="3137000" />
+      <workItem from="1774341859784" duration="4440000" />
+      <workItem from="1774439274402" duration="1118000" />
+      <workItem from="1775151710712" duration="1590000" />
+      <workItem from="1775154468487" duration="223000" />
+      <workItem from="1775154865785" duration="537000" />
+      <workItem from="1775552905199" duration="531000" />
+      <workItem from="1775553664982" duration="337000" />
+      <workItem from="1776153732874" duration="5706000" />
+      <workItem from="1776321408151" duration="957000" />
+      <workItem from="1776322391045" duration="1340000" />
+      <workItem from="1776323761978" duration="6845000" />
+      <workItem from="1776416652145" duration="2095000" />
+      <workItem from="1776506691614" duration="103000" />
+      <workItem from="1776506843149" duration="2304000" />
+      <workItem from="1776513669605" duration="583000" />
+      <workItem from="1776514264094" duration="45000" />
+      <workItem from="1776514323259" duration="128000" />
+      <workItem from="1776514462477" duration="4683000" />
+      <workItem from="1776530700890" duration="8154000" />
+      <workItem from="1776590003793" duration="21005000" />
+      <workItem from="1776611599669" duration="305000" />
+      <workItem from="1776611916919" duration="2082000" />
+      <workItem from="1776614151158" duration="7000" />
+      <workItem from="1776614356474" duration="1748000" />
+      <workItem from="1776670631471" duration="1084000" />
+      <workItem from="1776675879760" duration="1207000" />
+      <workItem from="1776757503699" duration="4915000" />
+      <workItem from="1776762456818" duration="5553000" />
+      <workItem from="1776786622682" duration="11270000" />
+      <workItem from="1777303699599" duration="109000" />
+      <workItem from="1777303891326" duration="2312000" />
+      <workItem from="1777363064967" duration="293000" />
+      <workItem from="1777363452762" duration="2224000" />
+      <workItem from="1777365878606" duration="3545000" />
+      <workItem from="1777541970429" duration="91000" />
+      <workItem from="1777542078337" duration="5000" />
+      <workItem from="1777991537695" duration="603000" />
+      <workItem from="1777992167573" duration="279000" />
+      <workItem from="1778000905190" duration="51000" />
+      <workItem from="1778149943965" duration="1866000" />
+      <workItem from="1778425576927" duration="820000" />
+      <workItem from="1778426695564" duration="1236000" />
+      <workItem from="1778572509537" duration="5959000" />
+      <workItem from="1778772898734" duration="77000" />
+      <workItem from="1778772992580" duration="3158000" />
+      <workItem from="1778779917781" duration="446000" />
+      <workItem from="1778780377122" duration="795000" />
+      <workItem from="1779093370760" duration="152000" />
+      <workItem from="1779093700746" duration="142000" />
+      <workItem from="1779177516721" duration="4831000" />
+      <workItem from="1779189667639" duration="509000" />
+      <workItem from="1779206074603" duration="2252000" />
+      <workItem from="1779444559974" duration="616000" />
+      <workItem from="1779447096356" duration="24000" />
+      <workItem from="1779629514505" duration="135000" />
+      <workItem from="1779629717226" duration="8063000" />
+      <workItem from="1779710391950" duration="12874000" />
+      <workItem from="1779782335691" duration="182000" />
+      <workItem from="1779782557537" duration="4088000" />
+      <workItem from="1779979012663" duration="5905000" />
+      <workItem from="1780334185691" duration="4769000" />
+      <workItem from="1780385554830" duration="200000" />
+      <workItem from="1780386691844" duration="368000" />
+      <workItem from="1780387082635" duration="4632000" />
+      <workItem from="1780649891989" duration="1972000" />
+      <workItem from="1780987006766" duration="831000" />
+      <workItem from="1780988710825" duration="1352000" />
+      <workItem from="1780990162804" duration="237000" />
+      <workItem from="1781080178944" duration="40000" />
+      <workItem from="1781080237303" duration="308000" />
+      <workItem from="1781195269707" duration="3530000" />
+      <workItem from="1781248286089" duration="4881000" />
+      <workItem from="1781506313310" duration="600000" />
+      <workItem from="1781590162088" duration="6994000" />
+      <workItem from="1781599439384" duration="2999000" />
+      <workItem from="1781776181498" duration="596000" />
+      <workItem from="1786728720131" duration="117000" />
+      <workItem from="1786728995096" duration="173000" />
+      <workItem from="1786729494955" duration="614000" />
+      <workItem from="1789314133661" duration="231000" />
+      <workItem from="1789314482207" duration="66000" />
+      <workItem from="1789314568725" duration="144000" />
+      <workItem from="1789315511672" duration="65000" />
+    </task>
+    <task id="LOCAL-00001" summary="Pushing everything for version control">
+      <option name="closed" value="true" />
+      <created>1776514957987</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1776514957987</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Forthis this">
+      <option name="closed" value="true" />
+      <created>1776515104238</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1776515104238</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Forthis this">
+      <option name="closed" value="true" />
+      <created>1776515925130</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776515925130</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Forthis this">
+      <option name="closed" value="true" />
+      <created>1776516119888</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776516119888</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Changed paths again">
+      <option name="closed" value="true" />
+      <created>1776516667201</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1776516667202</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fixed stuff">
+      <option name="closed" value="true" />
+      <created>1776531649673</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1776531649673</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Finished work">
+      <option name="closed" value="true" />
+      <created>1776604983584</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1776604983584</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Finished work">
+      <option name="closed" value="true" />
+      <created>1776611821386</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1776611821386</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Removed">
+      <option name="closed" value="true" />
+      <created>1776612930168</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1776612930168</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Finished work">
+      <option name="closed" value="true" />
+      <created>1776757558527</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1776757558527</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Finished work">
+      <option name="closed" value="true" />
+      <created>1778780358219</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1778780358219</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Finished work">
+      <option name="closed" value="true" />
+      <created>1779714953108</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1779714953108</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Finished work">
+      <option name="closed" value="true" />
+      <created>1779782762039</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1779782762040</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="8c08e1c0-95b4-472e-b796-e85f91a963f4" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="8c08e1c0-95b4-472e-b796-e85f91a963f4">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="MARK_IGNORED_AS_EXCLUDED" value="true" />
+    <MESSAGE value="Pushing everything for version control" />
+    <MESSAGE value="Changed paths" />
+    <MESSAGE value="Rechnung Project" />
+    <MESSAGE value="Forthis this" />
+    <MESSAGE value="Changed paths again" />
+    <MESSAGE value="Fixed stuff" />
+    <MESSAGE value="Removed" />
+    <MESSAGE value="Finished work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished work" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
