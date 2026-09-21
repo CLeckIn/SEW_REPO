@@ -4,26 +4,18 @@ import java.awt.*;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 
-public class GewinnPanel extends JFrame {
+public class GewinnPanel extends JPanel {
 
     private JLabel lblRundenergebnis;
     private JLabel lblGesamtpunkte;
-
-    // Textfelder für die Zahlen
     private JTextField tfSpielerZahl;
     private JTextField tfComputerZahl;
-
-    // Button unten
     private JButton btnNochEinmal;
 
     public GewinnPanel() {
-        setTitle("Zahlen-Gewinnspiel (v1.0)");
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(450, 250);
-        setLocationRelativeTo(null);
         setLayout(new BorderLayout(10, 10));
 
-        // Sachen oben
+        // Oben
 
         JPanel pnlOben = new JPanel(new GridLayout(2, 2, 5, 5));
         pnlOben.setBorder(new EmptyBorder(5, 5, 5, 5));
@@ -53,14 +45,15 @@ public class GewinnPanel extends JFrame {
         add(pnlOben, BorderLayout.NORTH);
 
         // Mitte
+
         JPanel pnlMitte = new JPanel(new GridLayout(2, 2, 10, 5));
         pnlMitte.setBorder(new EmptyBorder(5, 15, 5, 15));
 
         JLabel lblEingabePrompt = new JLabel("Deine Zahl:", SwingConstants.CENTER);
-
+        lblEingabePrompt.setFont(new Font("SansSerif", Font.PLAIN, 11));
 
         JLabel lblComputerPrompt = new JLabel("Computer:", SwingConstants.CENTER);
-
+        lblComputerPrompt.setFont(new Font("SansSerif", Font.PLAIN, 11));
 
         tfSpielerZahl = new JTextField();
         tfSpielerZahl.setHorizontalAlignment(JTextField.CENTER);
@@ -69,7 +62,7 @@ public class GewinnPanel extends JFrame {
         tfComputerZahl = new JTextField();
         tfComputerZahl.setHorizontalAlignment(JTextField.CENTER);
         tfComputerZahl.setFont(new Font("SansSerif", Font.BOLD, 22));
-        tfComputerZahl.setEditable(false); // Nicht editierbar[cite: 2]
+        tfComputerZahl.setEditable(false);
         tfComputerZahl.setBackground(Color.WHITE);
 
         pnlMitte.add(lblEingabePrompt);
@@ -79,7 +72,8 @@ public class GewinnPanel extends JFrame {
 
         add(pnlMitte, BorderLayout.CENTER);
 
-        // Unten
+        // Mitte
+
         JPanel pnlUnten = new JPanel(new FlowLayout(FlowLayout.RIGHT));
         btnNochEinmal = new JButton("Noch einmal!");
         pnlUnten.add(btnNochEinmal);
@@ -87,7 +81,7 @@ public class GewinnPanel extends JFrame {
         add(pnlUnten, BorderLayout.SOUTH);
     }
 
-    // Getter-Methoden für den Controller
+    // Getter-Methoden für die Elemente
     public JLabel getLblRundenergebnis() { return lblRundenergebnis; }
     public JLabel getLblGesamtpunkte() { return lblGesamtpunkte; }
     public JTextField getTfSpielerZahl() { return tfSpielerZahl; }

@@ -30,7 +30,7 @@ public class GewinnModel {
     }
 
     public void berechneRunde(int spielerZahl) {
-        this.spielerZahl = spielerZahl; // Spielerzahl im Attribut speichern
+        this.spielerZahl = spielerZahl;
 
         // 1. Rundenergebnis ermitteln
         if (spielerZahl == this.computerZahl) {
