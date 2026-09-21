@@ -2,11 +2,11 @@ package Einfaches_Spiel.view;
 
 import javax.swing.JFrame;
 
-public class GewinnView extends JFrame {
+public class GewinnFrame extends JFrame {
 
     private GewinnPanel mainPanel;
 
-    public GewinnView() {
+    public GewinnFrame() {
         setTitle("Zahlen-Gewinnspiel (v1.0)");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(450, 250);
