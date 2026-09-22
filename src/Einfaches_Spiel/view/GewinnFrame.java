@@ -13,17 +13,14 @@ public class GewinnFrame extends JFrame {
         setTitle("Zahlen-Gewinnspiel (v1.0)");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(450, 250);
-        setLocationRelativeTo(null);
 
-        // 1. Panel erstellen und hinzufügen
+        // Panel erstellen und hinzufügen
         mainPanel = new GewinnPanel();
         add(mainPanel);
 
-        // 2. Model und Controller verknüpfen
+        // Model und Controller verknüpfen
         GewinnModel model = new GewinnModel();
         new GewinnController(model, this);
-
-        // 3. Fenster anzeigen
         setVisible(true);
     }
 

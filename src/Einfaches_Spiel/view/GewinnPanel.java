@@ -56,7 +56,6 @@ public class GewinnPanel extends JPanel {
         lblComputerPrompt.setFont(new Font("SansSerif", Font.PLAIN, 11));
 
         tfSpielerZahl = new JTextField();
-        tfSpielerZahl.setHorizontalAlignment(JTextField.CENTER);
         tfSpielerZahl.setFont(new Font("SansSerif", Font.BOLD, 22));
 
         tfComputerZahl = new JTextField();
@@ -87,4 +86,12 @@ public class GewinnPanel extends JPanel {
     public JTextField getTfSpielerZahl() { return tfSpielerZahl; }
     public JTextField getTfComputerZahl() { return tfComputerZahl; }
     public JButton getBtnNochEinmal() { return btnNochEinmal; }
+
+    // Das Panel kümmert sich selbst darum, WIE es die Daten anzeigt:
+    public void zeigeErgebnis(String ergebnisText, int gesamtpunkte, String computerZahl) {
+        lblRundenergebnis.setText(ergebnisText);
+        lblGesamtpunkte.setText("Gesamtpunkte: " + gesamtpunkte);
+        tfComputerZahl.setText(computerZahl);
+    }
+
 }
