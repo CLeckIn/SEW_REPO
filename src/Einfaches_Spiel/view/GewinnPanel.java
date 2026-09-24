@@ -71,9 +71,9 @@ public class GewinnPanel extends JPanel {
 
         add(pnlMitte, BorderLayout.CENTER);
 
-        // Mitte
+        // Unten
 
-        JPanel pnlUnten = new JPanel(new FlowLayout(FlowLayout.RIGHT));
+        JPanel pnlUnten = new JPanel(new FlowLayout(FlowLayout.CENTER));
         btnNochEinmal = new JButton("Noch einmal!");
         pnlUnten.add(btnNochEinmal);
 

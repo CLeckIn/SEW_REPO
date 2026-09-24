@@ -11,6 +11,7 @@ public class GewinnFrame extends JFrame {
 
     public GewinnFrame() {
         setTitle("Zahlen-Gewinnspiel (v1.0)");
+        
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(450, 250);
 

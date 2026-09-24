@@ -44,6 +44,8 @@ public class GewinnController {
                     model.getGesamtPunkte(),
                     "" + model.getComputerZahl()
             );
+
+            
         }
     }
 
