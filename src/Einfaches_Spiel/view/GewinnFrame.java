@@ -28,4 +28,8 @@ public class GewinnFrame extends JFrame {
     public GewinnPanel getMainPanel() {
         return mainPanel;
     }
+    public static void main(String[] args) {
+        // Startet das Fenster
+        new GewinnFrame();
+    }
 }
