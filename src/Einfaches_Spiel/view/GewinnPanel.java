@@ -78,6 +78,7 @@ public class GewinnPanel extends JPanel {
         pnlUnten.add(btnNochEinmal);
 
         add(pnlUnten, BorderLayout.SOUTH);
+        btnNochEinmal.setEnabled(false);
     }
 
     // Getter-Methoden für die Elemente
@@ -86,6 +87,11 @@ public class GewinnPanel extends JPanel {
     public JTextField getTfSpielerZahl() { return tfSpielerZahl; }
     public JTextField getTfComputerZahl() { return tfComputerZahl; }
     public JButton getBtnNochEinmal() { return btnNochEinmal; }
+
+    public void sperreEingabe(boolean gesperrt) {
+        tfSpielerZahl.setEditable(!gesperrt);
+        btnNochEinmal.setEnabled(gesperrt);
+    }
 
     // Das Panel kümmert sich selbst darum, WIE es die Daten anzeigt:
     public void zeigeErgebnis(String ergebnisText, int gesamtpunkte, String computerZahl) {

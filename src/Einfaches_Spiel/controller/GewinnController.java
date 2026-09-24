@@ -31,6 +31,10 @@ public class GewinnController {
     }
 
     private void start() {
+        if (!view.getMainPanel().getTfSpielerZahl().isEditable()) {
+            return;
+        }
+
         String eingabeText = view.getMainPanel().getTfSpielerZahl().getText();
 
         if (eingabeText.length() == 1 && eingabeText.charAt(0) >= '1' && eingabeText.charAt(0) <= '9') {
@@ -45,13 +49,14 @@ public class GewinnController {
                     "" + model.getComputerZahl()
             );
 
-            
+            view.getMainPanel().sperreEingabe(true);
         }
     }
 
     private void rundeZuruecksetzen() {
-        // Löscht alles außer gesamtpnkte
+        // Setzt die Runde zurück
         view.getMainPanel().getTfSpielerZahl().setText("");
         view.getMainPanel().zeigeErgebnis("", model.getGesamtPunkte(), "");
+        view.getMainPanel().sperreEingabe(false);
     }
 }
