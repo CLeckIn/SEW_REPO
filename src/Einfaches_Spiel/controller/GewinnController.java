@@ -45,6 +45,13 @@ public class GewinnController {
                     "" + model.getComputerZahl()
             );
 
+            if (model.getRundenErgebnis() > 0) {
+                view.getMainPanel().faerbeErgebnis(java.awt.Color.GREEN);
+            } else if (model.getRundenErgebnis() < 0) {
+                view.getMainPanel().faerbeErgebnis(java.awt.Color.RED);
+            } else {
+                view.getMainPanel().faerbeErgebnis(java.awt.Color.WHITE);
+            }
             
         }
     }
