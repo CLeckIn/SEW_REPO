@@ -100,4 +100,8 @@ public class GewinnPanel extends JPanel {
         tfComputerZahl.setText(computerZahl);
     }
 
+    public void faerbeErgebnis(Color farbe) {
+        lblRundenergebnis.setBackground(farbe);
+        lblGesamtpunkte.setBackground(farbe);
+    }
 }
